@@ -29,10 +29,18 @@ public class LoginPage {
         this.password.sendKeys(password);
         this.signInButton.click();
     }
+
     @FindBy(xpath = "//*[@id=\"content\"]/section/div/ul/li")
     private WebElement loginErrorMessage;
 
     public WebElement returnLoginErrorMessage() {
         return loginErrorMessage;
+    }
+
+    @FindBy(partialLinkText = "Sign out")
+    private WebElement signOut;
+
+    public WebElement returnSignOut() {
+        return signOut;
     }
 }
