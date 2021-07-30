@@ -4,7 +4,7 @@ My selected project: Prestashop
 
 Access to the project: http://test-automation-shop1.greenfox.academy/
 
-Manual Tests: updating
+Manual Tests: [Test Cases](https://docs.google.com/spreadsheets/d/1wxMK6qX_SKteQ9C7XwKjLMSYijQIf9VuA0tkIhbo4Sk/edit?usp=sharing)
 
 Test information: Tests were made in IntelliJ, Gradle, Selenium WebDriver, JAVA language.
 
