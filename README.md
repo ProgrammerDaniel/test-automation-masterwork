@@ -3,7 +3,7 @@
 My selected project: Wiki
 Access to the project: http://test-automation-wiki2.greenfox.academy/
 
-Manual tests link: updating
+Manual Tests: [My test cases](https://docs.google.com/spreadsheets/d/1IHdc2_eHlu5zcuzk2OZbsDaA9g1nIAyP8FWj5PxhfkA/edit?usp=sharing)
 
 Test information: Tests were made in IntelliJ, Gradle, Selenium WebDriver, JAVA language.
 
