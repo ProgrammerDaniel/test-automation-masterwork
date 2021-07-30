@@ -1,6 +1,7 @@
 # test-automation-masterwork
 
 My selected project: Prestashop
+
 Access to the project: http://test-automation-shop1.greenfox.academy/
 
 Manual Tests: updating
