@@ -21,11 +21,9 @@ public class PaginationTest extends BaseTest {
         homePage.open();
         homePage.getListAll().click();
         String nameOfFirstItem = homePage.getFirstProduct().getText();
-        System.out.println(nameOfFirstItem);
         homePage.getNextPage().click();
         Thread.sleep(800);
         String nameOfSecondItem = homePage.getFirstProduct().getText();
-        System.out.println(nameOfSecondItem);
         Assertions.assertThat(nameOfFirstItem).isNotEqualTo(nameOfSecondItem);
 
 
