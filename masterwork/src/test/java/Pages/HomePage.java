@@ -18,6 +18,20 @@ public class HomePage {
     public void open() {
         driver.get("http://test-automation-shop1.greenfox.academy");
     }
+    @FindBy (xpath = "//div[@id='_desktop_user_info']/div/a/span")
+    private WebElement signInButton;
+
+    @FindBy (linkText = "No account? Create one here")
+    private WebElement createAccountButton;
+
+    public WebElement getSignInButton() {
+        return signInButton;
+    }
+
+    public WebElement getCreateAccountButton() {
+        return createAccountButton;
+    }
+
     @FindBy (xpath = "//*[@id=\"content\"]/section/a")
     private WebElement listAll;
 
