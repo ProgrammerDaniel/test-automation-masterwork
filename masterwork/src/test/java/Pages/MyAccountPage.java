@@ -29,6 +29,9 @@ public class MyAccountPage {
     @FindBy (xpath = "//form[@id='customer-form']/footer/button")
     private WebElement saveButton;
 
+    @FindBy (name = "lastname")
+    private WebElement lastnameField;
+
     public WebElement getInformations() {
         return informations;
     }
@@ -51,5 +54,9 @@ public class MyAccountPage {
 
     public WebElement getSaveButton() {
         return saveButton;
+    }
+
+    public WebElement getLastnameField() {
+        return lastnameField;
     }
 }
