@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class MyAccountPage {
     WebDriver driver;
 
@@ -32,6 +34,16 @@ public class MyAccountPage {
     @FindBy (name = "lastname")
     private WebElement lastnameField;
 
+    @FindBy (partialLinkText = "Addresses")
+    private WebElement addresses;
+
+    @FindBy (className = "address-footer")
+    private List<WebElement> addressList;
+
+    @FindBy (partialLinkText = "Delete")
+    private WebElement addressDeleteButton;
+
+
     public WebElement getInformations() {
         return informations;
     }
@@ -58,5 +70,17 @@ public class MyAccountPage {
 
     public WebElement getLastnameField() {
         return lastnameField;
+    }
+
+    public WebElement getAddresses() {
+        return addresses;
+    }
+
+    public List<WebElement> getAddressList() {
+        return addressList;
+    }
+
+    public WebElement getAddressDeleteButton() {
+        return addressDeleteButton;
     }
 }
