@@ -1,9 +1,10 @@
 # test-automation-masterwork
 
-My selected project: Wiki
-Access to the project: http://test-automation-wiki2.greenfox.academy/
+My selected project: Prestashop
 
-Manual tests link: updating
+Access to the project: http://test-automation-shop1.greenfox.academy/
+
+Manual Tests: [Test Cases](https://docs.google.com/spreadsheets/d/1wxMK6qX_SKteQ9C7XwKjLMSYijQIf9VuA0tkIhbo4Sk/edit?usp=sharing)
 
 Test information: Tests were made in IntelliJ, Gradle, Selenium WebDriver, JAVA language.
 
