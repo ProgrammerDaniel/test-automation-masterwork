@@ -1,5 +1,6 @@
 package Pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,5 +36,34 @@ public class HomePage {
 
     public WebElement getFirstProduct() {
         return firstProduct;
+    }
+
+    @FindBy (xpath = "//div[@id='js-product-list-top']/div[2]/div/div/button")
+    private WebElement dropdownForSortBy;
+
+    public WebElement getDropdownForSortBy() {
+        return dropdownForSortBy;
+    }
+
+    @FindBy (linkText = "Price, low to high")
+    private WebElement lowToHigh;
+
+
+    public WebElement getLowToHigh() {
+        return lowToHigh;
+    }
+
+    @FindBy (xpath = "//span[@class='price']")
+    private List<WebElement> pricesOfProducts;
+
+    @FindBy (xpath = "//span[@class='price']")
+    private WebElement priceOfFirstProduct;
+
+    public WebElement getPriceOfFirstProduct() {
+        return priceOfFirstProduct;
+    }
+
+    public List<WebElement> getPricesOfProducts() {
+        return pricesOfProducts;
     }
 }

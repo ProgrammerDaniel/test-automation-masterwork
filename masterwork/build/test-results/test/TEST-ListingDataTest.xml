@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ListingDataTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-31T09:37:09" hostname="DESKTOP-O6ROPA0" time="12.805">
+  <properties/>
+  <testcase name="ListingDataInLowToHighPriceOrder()" classname="ListingDataTest" time="12.805"/>
+  <system-out><![CDATA[original 9.0
+num input 9.0
+num input 9.0
+num input 9.0
+num input 11.9
+num input 11.9
+num input 11.9
+num input 12.9
+num input 12.9
+num input 12.9
+num input 13.9
+num input 18.9
+num input 18.9
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 18200
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+júl. 31, 2021 11:37:14 DE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
