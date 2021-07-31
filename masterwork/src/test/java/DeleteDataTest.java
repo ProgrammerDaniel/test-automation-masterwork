@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class DeleteDataTest extends BaseTest {
     @Test
     @DisplayName("Deleting the first address from the addresses of the user")
-    public void deleteAddress() throws InterruptedException {
+    public void deleteAddress() {
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.open();
         homePage.getSignInButton().click();
