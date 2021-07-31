@@ -43,6 +43,24 @@ public class MyAccountPage {
     @FindBy (partialLinkText = "Delete")
     private WebElement addressDeleteButton;
 
+    @FindBy (partialLinkText = "Create new address")
+    private WebElement createAddressButton;
+
+    @FindBy (name = "address1")
+    private WebElement addressField;
+
+    @FindBy (name = "city")
+    private WebElement cityField;
+
+    @FindBy (name = "id_state")
+    private WebElement stateField;
+
+    @FindBy (name = "postcode")
+    private WebElement postcodeField;
+
+    @FindBy (xpath = "//section[@id='content']/div/div/form/footer/button")
+    private WebElement newAddressSave;
+
 
     public WebElement getInformations() {
         return informations;
@@ -82,5 +100,29 @@ public class MyAccountPage {
 
     public WebElement getAddressDeleteButton() {
         return addressDeleteButton;
+    }
+
+    public WebElement getCreateAddressButton() {
+        return createAddressButton;
+    }
+
+    public WebElement getAddressField() {
+        return addressField;
+    }
+
+    public WebElement getCityField() {
+        return cityField;
+    }
+
+    public WebElement getStateField() {
+        return stateField;
+    }
+
+    public WebElement getPostcodeField() {
+        return postcodeField;
+    }
+
+    public WebElement getNewAddressSave() {
+        return newAddressSave;
     }
 }
