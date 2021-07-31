@@ -48,6 +48,10 @@ public class SignUpPage {
     @FindBy(name = "psgdpr")
     private WebElement privacyPolicyBox;
 
+    public WebElement getPrivacyPolicyBox() {
+        return privacyPolicyBox;
+    }
+
     @FindBy(xpath = "//*[@id=\"customer-form\"]/footer/button")
     private WebElement submitButton;
 
@@ -93,5 +97,10 @@ public class SignUpPage {
     public WebElement returnSignOutButton() {
         return signOutButton;
     }
+    @FindBy (linkText = "terms and conditions and the privacy policy")
+    private WebElement privacyStatementLink;
 
+    public WebElement getPrivacyStatementLink() {
+        return privacyStatementLink;
+    }
 }
