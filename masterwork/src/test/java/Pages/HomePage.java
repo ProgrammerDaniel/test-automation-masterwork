@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 
 
@@ -80,4 +82,18 @@ public class HomePage {
     public List<WebElement> getPricesOfProducts() {
         return pricesOfProducts;
     }
+
+    @FindBy (xpath = "//li[@id='category-3']/a")
+    private WebElement clothes;
+
+    public WebElement getClothes() {
+        return clothes;
+    }
+    @FindBy (xpath = "//*[@class=\"h3 product-title\"]/a")
+    private List<WebElement> items;
+
+    public List<WebElement> getItems() {
+        return items;
+    }
 }
+
