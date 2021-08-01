@@ -24,6 +24,6 @@ Tested features:
 To run the tests:
 1. Clone this repository to your own computer
 2. Open the cloned gradle project with IntelliJ
-3. Run "./gradlew clean test" command
+3. Run "gradlew clean test" command
 
-(4.For an allure test report: Run "./gradlew allureServe")
+(4.For an allure test report: Run "gradlew allureServe" and open the generated index.html in browser)
