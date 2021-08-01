@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UsingPrivacyStatementTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-01T13:08:47" hostname="DESKTOP-O6ROPA0" time="7.75">
+  <properties/>
+  <testcase name="openAndCheckPrivacyStatement()" classname="UsingPrivacyStatementTest" time="7.75"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 34242
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+aug. 01, 2021 3:08:49 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

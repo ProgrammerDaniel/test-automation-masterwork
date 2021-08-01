@@ -18,7 +18,7 @@ public class SignUpTests extends BaseTest {
         homePage.getCreateAccountButton().click();
         SignUpPage signUpPage = PageFactory.initElements(driver, SignUpPage.class);
         signUpPage.signUp("Mr", "John", "Smith",
-                "testuser1765@testmail.com", "Testpassword123123",
+                "testuser176645@testmail.com", "Testpassword123123",
                 "06/15/1990", true, true, true, true);
         Assertions.assertThat(driver.getTitle()).isEqualTo("PrestaShop");
     }
