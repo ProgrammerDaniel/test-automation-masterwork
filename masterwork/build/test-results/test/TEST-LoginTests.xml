@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-01T13:07:34" hostname="DESKTOP-O6ROPA0" time="15.966">
+<testsuite name="LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-05T23:38:01" hostname="DESKTOP-O6ROPA0" time="16.635">
   <properties/>
-  <testcase name="unSuccessfulLogin()" classname="LoginTests" time="8.015"/>
-  <testcase name="successfulLogin()" classname="LoginTests" time="7.942"/>
+  <testcase name="unSuccessfulLogin()" classname="LoginTests" time="8.438"/>
+  <testcase name="successfulLogin()" classname="LoginTests" time="8.193"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 45517
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dániel\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 7699
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-aug. 01, 2021 3:07:36 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 06, 2021 1:38:06 DE org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 23423
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dániel\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 33840
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-aug. 01, 2021 3:07:45 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 06, 2021 1:38:12 DE org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

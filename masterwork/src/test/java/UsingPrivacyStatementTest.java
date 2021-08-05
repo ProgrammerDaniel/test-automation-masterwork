@@ -1,15 +1,21 @@
 import Pages.HomePage;
 import Pages.SignUpPage;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.ArrayList;
 
+@DisplayName("Privacy Statement Test")
 public class UsingPrivacyStatementTest extends BaseTest {
     @Test
-    @DisplayName("Open the Privacy Statements and accept them in the checkbox")
+    @Tag("TC_05")
+    @Description("Open the Privacy Statement and then accept it in the checkbox")
+    @Feature("Registration")
     public void openAndCheckPrivacyStatement() {
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.open();

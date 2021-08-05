@@ -1,6 +1,9 @@
 import Pages.HomePage;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -12,11 +15,16 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+@DisplayName("Extract Data Test")
 public class SaveDataToFileTest extends BaseTest {
+
     List<String> listOfClothes = new ArrayList<>();
     ArrayList<String> fileContent = null;
+
     @Test
-    @DisplayName("Write the name of the clothes to a txt file")
+    @Tag("TC_12")
+    @Description("Write the name of the clothes to a txt file")
+    @Feature("Listing Products")
     public void WriteProductNamesToFile() {
 
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);

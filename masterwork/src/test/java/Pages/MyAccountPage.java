@@ -14,7 +14,7 @@ public class MyAccountPage {
         this.driver = driver;
     }
     @FindBy (xpath = "//a[@id='identity-link']/span/i")
-            private WebElement informations;
+            private WebElement information;
 
     @FindBy (name = "birthday")
     private WebElement birthDateField;
@@ -62,8 +62,8 @@ public class MyAccountPage {
     private WebElement newAddressSave;
 
 
-    public WebElement getInformations() {
-        return informations;
+    public WebElement getInformation() {
+        return information;
     }
 
     public WebElement getBirthDateField() {

@@ -24,23 +24,23 @@ public class LoginPage {
     @FindBy(id = "submit-login")
     private WebElement signInButton;
 
+    @FindBy(xpath = "//*[@id=\"content\"]/section/div/ul/li")
+    private WebElement loginErrorMessage;
+
+    @FindBy(partialLinkText = "Sign out")
+    private WebElement signOut;
+
     public void userSignIn(String email, String password) {
         this.email.sendKeys(email);
         this.password.sendKeys(password);
         this.signInButton.click();
     }
 
-    @FindBy(xpath = "//*[@id=\"content\"]/section/div/ul/li")
-    private WebElement loginErrorMessage;
+    public WebElement returnSignOut() {
+        return signOut;
+    }
 
     public WebElement returnLoginErrorMessage() {
         return loginErrorMessage;
-    }
-
-    @FindBy(partialLinkText = "Sign out")
-    private WebElement signOut;
-
-    public WebElement returnSignOut() {
-        return signOut;
     }
 }

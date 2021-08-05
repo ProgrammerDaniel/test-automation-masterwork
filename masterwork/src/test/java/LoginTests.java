@@ -1,14 +1,20 @@
 import Pages.HomePage;
 import Pages.LoginPage;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 
+@DisplayName("Login Tests")
 public class LoginTests extends BaseTest {
 
     @Test
-    @DisplayName("Unsuccessful login because the user does not exist")
+    @Tag("TC_03")
+    @Description("Unsuccessful login because the user does not exist")
+    @Feature("Login")
     public void unSuccessfulLogin() {
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.open();
@@ -20,7 +26,9 @@ public class LoginTests extends BaseTest {
     }
 
     @Test
-    @DisplayName("Log in successfully with existing user's data")
+    @Tag("TC_04")
+    @Description("Log in successfully with existing user's data")
+    @Feature("Login")
     public void successfulLogin() {
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.open();
