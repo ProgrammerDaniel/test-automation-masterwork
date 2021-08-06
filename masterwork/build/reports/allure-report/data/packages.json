@@ -1,0 +1,218 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "DataFromExternalSourceTest",
+    "children" : [ {
+      "name" : "createAddress",
+      "uid" : "ead61e68ed8aa792",
+      "parentUid" : "c12f4ce6acbe8ce0a092f16382bbfb5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236685192,
+        "stop" : 1628236700378,
+        "duration" : 15186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c12f4ce6acbe8ce0a092f16382bbfb5e"
+  }, {
+    "name" : "DataInputTest",
+    "children" : [ {
+      "name" : "addBirthdate",
+      "uid" : "9c95bf873e7a0783",
+      "parentUid" : "5e865c7ed7dcba7d7de85ec5fdd2f977",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236700671,
+        "stop" : 1628236710341,
+        "duration" : 9670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5e865c7ed7dcba7d7de85ec5fdd2f977"
+  }, {
+    "name" : "DeleteDataTest",
+    "children" : [ {
+      "name" : "deleteAddress",
+      "uid" : "2c40bf4048d51bda",
+      "parentUid" : "de5d6dd3a3983523d6ac427fabe9f1d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236710354,
+        "stop" : 1628236719095,
+        "duration" : 8741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "de5d6dd3a3983523d6ac427fabe9f1d4"
+  }, {
+    "name" : "ListingDataTest",
+    "children" : [ {
+      "name" : "ListingDataInLowToHighPriceOrder",
+      "uid" : "6e30e023120ee25e",
+      "parentUid" : "bb0ff538c8f90e93460a9608f5ecfeab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236719108,
+        "stop" : 1628236727430,
+        "duration" : 8322
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bb0ff538c8f90e93460a9608f5ecfeab"
+  }, {
+    "name" : "LoginTests",
+    "children" : [ {
+      "name" : "unSuccessfulLogin",
+      "uid" : "793ccffad59ca419",
+      "parentUid" : "b6f2f0808fb09d106a93598956999c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236727443,
+        "stop" : 1628236734813,
+        "duration" : 7370
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulLogin",
+      "uid" : "51cb59840e8b0e58",
+      "parentUid" : "b6f2f0808fb09d106a93598956999c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236734822,
+        "stop" : 1628236742387,
+        "duration" : 7565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b6f2f0808fb09d106a93598956999c21"
+  }, {
+    "name" : "LogoutTest",
+    "children" : [ {
+      "name" : "successfulLogin",
+      "uid" : "9f9e75bd01ed4577",
+      "parentUid" : "05e8fc011914479cb195ed58b1dd4bad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236742398,
+        "stop" : 1628236750443,
+        "duration" : 8045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05e8fc011914479cb195ed58b1dd4bad"
+  }, {
+    "name" : "ModifyExistingDataTest",
+    "children" : [ {
+      "name" : "modifyLastname",
+      "uid" : "2ca74e3adc787a37",
+      "parentUid" : "e0cc505c1a42c404521a161741e2c882",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236750453,
+        "stop" : 1628236760400,
+        "duration" : 9947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e0cc505c1a42c404521a161741e2c882"
+  }, {
+    "name" : "PaginationTest",
+    "children" : [ {
+      "name" : "navigateToSecondPageOfProductsFromHomePage",
+      "uid" : "d94c98f775d4e3ce",
+      "parentUid" : "58f4044fd940f190ed37480d49f8cf77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236760412,
+        "stop" : 1628236767610,
+        "duration" : 7198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "58f4044fd940f190ed37480d49f8cf77"
+  }, {
+    "name" : "SaveDataToFileTest",
+    "children" : [ {
+      "name" : "WriteProductNamesToFile",
+      "uid" : "60bad8aef0645d75",
+      "parentUid" : "480aed45a395fef4b2f4fa6071b84fb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236767620,
+        "stop" : 1628236773918,
+        "duration" : 6298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "480aed45a395fef4b2f4fa6071b84fb4"
+  }, {
+    "name" : "SignUpTests",
+    "children" : [ {
+      "name" : "successfulSignUp",
+      "uid" : "f0d777c1640c470e",
+      "parentUid" : "07b33fc3bfcc6ae20eb25cda78abb4df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236773935,
+        "stop" : 1628236782689,
+        "duration" : 8754
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "unSuccessfulSignUp",
+      "uid" : "f0b9d7fe5debfcfd",
+      "parentUid" : "07b33fc3bfcc6ae20eb25cda78abb4df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236782699,
+        "stop" : 1628236790948,
+        "duration" : 8249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "07b33fc3bfcc6ae20eb25cda78abb4df"
+  }, {
+    "name" : "UsingPrivacyStatementTest",
+    "children" : [ {
+      "name" : "openAndCheckPrivacyStatement",
+      "uid" : "fbf2c27e1d54351c",
+      "parentUid" : "42211a549d67c64b95aaa3ee1611c0bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236790957,
+        "stop" : 1628236797693,
+        "duration" : 6736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "42211a549d67c64b95aaa3ee1611c0bc"
+  } ]
+}

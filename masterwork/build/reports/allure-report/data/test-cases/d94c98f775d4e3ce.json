@@ -1,0 +1,64 @@
+{
+  "uid" : "d94c98f775d4e3ce",
+  "name" : "navigateToSecondPageOfProductsFromHomePage()",
+  "fullName" : "PaginationTest.navigateToSecondPageOfProductsFromHomePage",
+  "historyId" : "723f2eeee8a5943def0256051aa0e865",
+  "time" : {
+    "start" : 1628236760412,
+    "stop" : 1628236767610,
+    "duration" : 7198
+  },
+  "description" : "Listing all the products and navigate to the second page of the list",
+  "descriptionHtml" : "<p>Listing all the products and navigate to the second page of the list</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TC_07"
+  }, {
+    "name" : "feature",
+    "value" : "Listing products"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O6ROPA0"
+  }, {
+    "name" : "thread",
+    "value" : "28432@DESKTOP-O6ROPA0.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PaginationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "PaginationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigateToSecondPageOfProductsFromHomePage"
+  }, {
+    "name" : "suite",
+    "value" : "Pagination Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TC_07" ]
+  },
+  "source" : "d94c98f775d4e3ce.json",
+  "parameterValues" : [ ]
+}

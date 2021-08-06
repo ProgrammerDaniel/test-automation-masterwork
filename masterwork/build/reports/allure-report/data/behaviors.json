@@ -1,0 +1,202 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Address management",
+    "children" : [ {
+      "name" : "[1] Test route 66, Testcity, 12345, Hawaii",
+      "uid" : "ead61e68ed8aa792",
+      "parentUid" : "3e196e3e7aca08bc8ee190f9ad948e03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236685192,
+        "stop" : 1628236700378,
+        "duration" : 15186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deleteAddress()",
+      "uid" : "2c40bf4048d51bda",
+      "parentUid" : "3e196e3e7aca08bc8ee190f9ad948e03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236710354,
+        "stop" : 1628236719095,
+        "duration" : 8741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3e196e3e7aca08bc8ee190f9ad948e03"
+  }, {
+    "name" : "Personal information management",
+    "children" : [ {
+      "name" : "addBirthdate()",
+      "uid" : "9c95bf873e7a0783",
+      "parentUid" : "1abd081f91695374e930ee2ea333ee94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236700671,
+        "stop" : 1628236710341,
+        "duration" : 9670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "modifyLastname()",
+      "uid" : "2ca74e3adc787a37",
+      "parentUid" : "1abd081f91695374e930ee2ea333ee94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236750453,
+        "stop" : 1628236760400,
+        "duration" : 9947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1abd081f91695374e930ee2ea333ee94"
+  }, {
+    "name" : "Listing products",
+    "children" : [ {
+      "name" : "ListingDataInLowToHighPriceOrder()",
+      "uid" : "6e30e023120ee25e",
+      "parentUid" : "e9f9f698da8cd34a349c0b0c5bfa969a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236719108,
+        "stop" : 1628236727430,
+        "duration" : 8322
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "navigateToSecondPageOfProductsFromHomePage()",
+      "uid" : "d94c98f775d4e3ce",
+      "parentUid" : "e9f9f698da8cd34a349c0b0c5bfa969a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236760412,
+        "stop" : 1628236767610,
+        "duration" : 7198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e9f9f698da8cd34a349c0b0c5bfa969a"
+  }, {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "unSuccessfulLogin()",
+      "uid" : "793ccffad59ca419",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236727443,
+        "stop" : 1628236734813,
+        "duration" : 7370
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulLogin()",
+      "uid" : "51cb59840e8b0e58",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236734822,
+        "stop" : 1628236742387,
+        "duration" : 7565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14102d61eef2af473312d4f91dec531b"
+  }, {
+    "name" : "Logout",
+    "children" : [ {
+      "name" : "successfulLogin()",
+      "uid" : "9f9e75bd01ed4577",
+      "parentUid" : "dcbebd01cb6a8eb469ec948c2c2fe8e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236742398,
+        "stop" : 1628236750443,
+        "duration" : 8045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dcbebd01cb6a8eb469ec948c2c2fe8e9"
+  }, {
+    "name" : "Listing Products",
+    "children" : [ {
+      "name" : "WriteProductNamesToFile()",
+      "uid" : "60bad8aef0645d75",
+      "parentUid" : "150e23a724f7181ff17271f3bed69aca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236767620,
+        "stop" : 1628236773918,
+        "duration" : 6298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "150e23a724f7181ff17271f3bed69aca"
+  }, {
+    "name" : "Registration",
+    "children" : [ {
+      "name" : "successfulSignUp()",
+      "uid" : "f0d777c1640c470e",
+      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236773935,
+        "stop" : 1628236782689,
+        "duration" : 8754
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "unSuccessfulSignUp()",
+      "uid" : "f0b9d7fe5debfcfd",
+      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236782699,
+        "stop" : 1628236790948,
+        "duration" : 8249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openAndCheckPrivacyStatement()",
+      "uid" : "fbf2c27e1d54351c",
+      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628236790957,
+        "stop" : 1628236797693,
+        "duration" : 6736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c0effe69527f658c5af968b745a6e0ad"
+  } ]
+}
