@@ -1,0 +1,64 @@
+{
+  "uid" : "fc048f71bcb789a6",
+  "name" : "ListingDataInLowToHighPriceOrder()",
+  "fullName" : "ListingDataTest.ListingDataInLowToHighPriceOrder",
+  "historyId" : "ac70b087650c9c8385c6b7014d53aa08",
+  "time" : {
+    "start" : 1628243460902,
+    "stop" : 1628243467473,
+    "duration" : 6571
+  },
+  "description" : "Listing all the products and make the order from cheapest to most expensive",
+  "descriptionHtml" : "<p>Listing all the products and make the order from cheapest to most expensive</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TC_06"
+  }, {
+    "name" : "feature",
+    "value" : "Listing products"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O6ROPA0"
+  }, {
+    "name" : "thread",
+    "value" : "24652@DESKTOP-O6ROPA0.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ListingDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ListingDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ListingDataInLowToHighPriceOrder"
+  }, {
+    "name" : "suite",
+    "value" : "Data Listing Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TC_06" ]
+  },
+  "source" : "fc048f71bcb789a6.json",
+  "parameterValues" : [ ]
+}

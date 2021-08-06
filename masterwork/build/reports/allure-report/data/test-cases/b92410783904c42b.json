@@ -1,0 +1,64 @@
+{
+  "uid" : "b92410783904c42b",
+  "name" : "successfulLogin()",
+  "fullName" : "LoginTests.successfulLogin",
+  "historyId" : "a7707f513b570a7372611485deb348b8",
+  "time" : {
+    "start" : 1628243473859,
+    "stop" : 1628243480427,
+    "duration" : 6568
+  },
+  "description" : "Log in successfully with existing user's data",
+  "descriptionHtml" : "<p>Log in successfully with existing user's data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TC_04"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O6ROPA0"
+  }, {
+    "name" : "thread",
+    "value" : "24652@DESKTOP-O6ROPA0.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulLogin"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TC_04" ]
+  },
+  "source" : "b92410783904c42b.json",
+  "parameterValues" : [ ]
+}

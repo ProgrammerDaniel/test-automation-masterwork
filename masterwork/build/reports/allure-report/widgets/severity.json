@@ -1,130 +1,130 @@
 [ {
-  "uid" : "51cb59840e8b0e58",
+  "uid" : "38347508730f888a",
   "name" : "successfulLogin()",
   "time" : {
-    "start" : 1628236734822,
-    "stop" : 1628236742387,
-    "duration" : 7565
+    "start" : 1628243480458,
+    "stop" : 1628243487553,
+    "duration" : 7095
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "793ccffad59ca419",
+  "uid" : "cf8a2c274c57527d",
   "name" : "unSuccessfulLogin()",
   "time" : {
-    "start" : 1628236727443,
-    "stop" : 1628236734813,
-    "duration" : 7370
+    "start" : 1628243467489,
+    "stop" : 1628243473843,
+    "duration" : 6354
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6e30e023120ee25e",
-  "name" : "ListingDataInLowToHighPriceOrder()",
-  "time" : {
-    "start" : 1628236719108,
-    "stop" : 1628236727430,
-    "duration" : 8322
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "60bad8aef0645d75",
-  "name" : "WriteProductNamesToFile()",
-  "time" : {
-    "start" : 1628236767620,
-    "stop" : 1628236773918,
-    "duration" : 6298
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ead61e68ed8aa792",
-  "name" : "[1] Test route 66, Testcity, 12345, Hawaii",
-  "time" : {
-    "start" : 1628236685192,
-    "stop" : 1628236700378,
-    "duration" : 15186
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fbf2c27e1d54351c",
-  "name" : "openAndCheckPrivacyStatement()",
-  "time" : {
-    "start" : 1628236790957,
-    "stop" : 1628236797693,
-    "duration" : 6736
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c95bf873e7a0783",
-  "name" : "addBirthdate()",
-  "time" : {
-    "start" : 1628236700671,
-    "stop" : 1628236710341,
-    "duration" : 9670
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2ca74e3adc787a37",
-  "name" : "modifyLastname()",
-  "time" : {
-    "start" : 1628236750453,
-    "stop" : 1628236760400,
-    "duration" : 9947
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2c40bf4048d51bda",
-  "name" : "deleteAddress()",
-  "time" : {
-    "start" : 1628236710354,
-    "stop" : 1628236719095,
-    "duration" : 8741
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d94c98f775d4e3ce",
-  "name" : "navigateToSecondPageOfProductsFromHomePage()",
-  "time" : {
-    "start" : 1628236760412,
-    "stop" : 1628236767610,
-    "duration" : 7198
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f0d777c1640c470e",
-  "name" : "successfulSignUp()",
-  "time" : {
-    "start" : 1628236773935,
-    "stop" : 1628236782689,
-    "duration" : 8754
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f0b9d7fe5debfcfd",
-  "name" : "unSuccessfulSignUp()",
-  "time" : {
-    "start" : 1628236782699,
-    "stop" : 1628236790948,
-    "duration" : 8249
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f9e75bd01ed4577",
+  "uid" : "b92410783904c42b",
   "name" : "successfulLogin()",
   "time" : {
-    "start" : 1628236742398,
-    "stop" : 1628236750443,
-    "duration" : 8045
+    "start" : 1628243473859,
+    "stop" : 1628243480427,
+    "duration" : 6568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33c76d0acb133b67",
+  "name" : "[1] Test route 66, Testcity, 12345, Hawaii",
+  "time" : {
+    "start" : 1628243430822,
+    "stop" : 1628243444482,
+    "duration" : 13660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48954d7474bad3de",
+  "name" : "WriteProductNamesToFile()",
+  "time" : {
+    "start" : 1628243502397,
+    "stop" : 1628243507610,
+    "duration" : 5213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "987dfc2ea98133e8",
+  "name" : "successfulSignUp()",
+  "time" : {
+    "start" : 1628243507621,
+    "stop" : 1628243515162,
+    "duration" : 7541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74029d9dd8833c24",
+  "name" : "navigateToSecondPageOfProductsFromHomePage()",
+  "time" : {
+    "start" : 1628243496240,
+    "stop" : 1628243502382,
+    "duration" : 6142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf17e5b036ec5176",
+  "name" : "addBirthdate()",
+  "time" : {
+    "start" : 1628243444716,
+    "stop" : 1628243453332,
+    "duration" : 8616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f5a9b4f5dfdd480",
+  "name" : "unSuccessfulSignUp()",
+  "time" : {
+    "start" : 1628243515177,
+    "stop" : 1628243522184,
+    "duration" : 7007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55996997e74d6ca8",
+  "name" : "modifyLastname()",
+  "time" : {
+    "start" : 1628243487568,
+    "stop" : 1628243496209,
+    "duration" : 8641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6be62a0d94b0cf07",
+  "name" : "openAndCheckPrivacyStatement()",
+  "time" : {
+    "start" : 1628243522199,
+    "stop" : 1628243528320,
+    "duration" : 6121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fad84a6cf36781b4",
+  "name" : "deleteAddress()",
+  "time" : {
+    "start" : 1628243453364,
+    "stop" : 1628243460886,
+    "duration" : 7522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc048f71bcb789a6",
+  "name" : "ListingDataInLowToHighPriceOrder()",
+  "time" : {
+    "start" : 1628243460902,
+    "stop" : 1628243467473,
+    "duration" : 6571
   },
   "status" : "passed",
   "severity" : "normal"

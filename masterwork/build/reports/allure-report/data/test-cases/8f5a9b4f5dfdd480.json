@@ -1,0 +1,64 @@
+{
+  "uid" : "8f5a9b4f5dfdd480",
+  "name" : "unSuccessfulSignUp()",
+  "fullName" : "SignUpTests.unSuccessfulSignUp",
+  "historyId" : "5a794b372ee502cc4f68e63925649666",
+  "time" : {
+    "start" : 1628243515177,
+    "stop" : 1628243522184,
+    "duration" : 7007
+  },
+  "description" : "Unsuccessful Registration because email is already in use",
+  "descriptionHtml" : "<p>Unsuccessful Registration because email is already in use</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TC_02"
+  }, {
+    "name" : "feature",
+    "value" : "Registration"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O6ROPA0"
+  }, {
+    "name" : "thread",
+    "value" : "24652@DESKTOP-O6ROPA0.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "SignUpTests"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUpTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "unSuccessfulSignUp"
+  }, {
+    "name" : "suite",
+    "value" : "Registration Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TC_02" ]
+  },
+  "source" : "8f5a9b4f5dfdd480.json",
+  "parameterValues" : [ ]
+}

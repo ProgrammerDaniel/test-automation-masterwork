@@ -1,0 +1,64 @@
+{
+  "uid" : "cf17e5b036ec5176",
+  "name" : "addBirthdate()",
+  "fullName" : "DataInputTest.addBirthdate",
+  "historyId" : "42c042d3e41a1cf74f92ed408fcf6fd3",
+  "time" : {
+    "start" : 1628243444716,
+    "stop" : 1628243453332,
+    "duration" : 8616
+  },
+  "description" : "Add birthdate to the personal information",
+  "descriptionHtml" : "<p>Add birthdate to the personal information</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TC_08"
+  }, {
+    "name" : "feature",
+    "value" : "Personal information management"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O6ROPA0"
+  }, {
+    "name" : "thread",
+    "value" : "24652@DESKTOP-O6ROPA0.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "DataInputTest"
+  }, {
+    "name" : "testClass",
+    "value" : "DataInputTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addBirthdate"
+  }, {
+    "name" : "suite",
+    "value" : "Data Input Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TC_08" ]
+  },
+  "source" : "cf17e5b036ec5176.json",
+  "parameterValues" : [ ]
+}

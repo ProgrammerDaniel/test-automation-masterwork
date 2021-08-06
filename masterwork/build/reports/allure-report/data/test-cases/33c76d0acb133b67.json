@@ -1,0 +1,64 @@
+{
+  "uid" : "33c76d0acb133b67",
+  "name" : "[1] Test route 66, Testcity, 12345, Hawaii",
+  "fullName" : "DataFromExternalSourceTest.createAddress",
+  "historyId" : "a2b0a79d0572390be22342d1d156d4e0",
+  "time" : {
+    "start" : 1628243430822,
+    "stop" : 1628243444482,
+    "duration" : 13660
+  },
+  "description" : "Creating a new address with repetitive data entry from external source",
+  "descriptionHtml" : "<p>Creating a new address with repetitive data entry from external source</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TC_09"
+  }, {
+    "name" : "feature",
+    "value" : "Address management"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O6ROPA0"
+  }, {
+    "name" : "thread",
+    "value" : "24652@DESKTOP-O6ROPA0.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "DataFromExternalSourceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "DataFromExternalSourceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createAddress"
+  }, {
+    "name" : "suite",
+    "value" : "Data Input From External Source test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TC_09" ]
+  },
+  "source" : "33c76d0acb133b67.json",
+  "parameterValues" : [ ]
+}
