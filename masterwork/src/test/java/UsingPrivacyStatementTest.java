@@ -7,7 +7,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
-
 import java.util.ArrayList;
 
 @DisplayName("Privacy Statement Test")

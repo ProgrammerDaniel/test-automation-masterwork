@@ -110,8 +110,6 @@ public class HomePage {
 
     public By getPageNumber() {
         return pageNumber;
-
-
     }
 }
 

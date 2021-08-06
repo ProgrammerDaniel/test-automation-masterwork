@@ -44,8 +44,5 @@ public class SignUpTests extends BaseTest {
                 "06/15/1990", true, true, true, true);
         Assertions.assertThat(signUpPage.getEmailErrorMessage().getText())
                 .isEqualTo("The email is already used, please choose another one or sign in");
-
     }
-
-
 }

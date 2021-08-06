@@ -27,6 +27,5 @@ public class DeleteDataTest extends BaseTest {
         int originalNumberOfAddresses = myAccountPage.getAddressList().size();
         myAccountPage.getAddressDeleteButton().click();
         Assertions.assertThat(myAccountPage.getAddressList().size()).isEqualTo(originalNumberOfAddresses - 1);
-
     }
 }
