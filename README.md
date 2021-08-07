@@ -1,29 +1,29 @@
 # test-automation-masterwork
 
-My selected project: Prestashop
+Választott projektem: Prestashop
 
-Access to the project: http://test-automation-shop1.greenfox.academy/
+Elérhetősége: http://test-automation-shop1.greenfox.academy/
 
-Manual Tests: [Test Cases](https://docs.google.com/spreadsheets/d/1wxMK6qX_SKteQ9C7XwKjLMSYijQIf9VuA0tkIhbo4Sk/edit?usp=sharing)
+Manualis tesztek: (https://docs.google.com/spreadsheets/d/1wxMK6qX_SKteQ9C7XwKjLMSYijQIf9VuA0tkIhbo4Sk/edit?usp=sharing)
 
-Test information: Tests were made in IntelliJ, Gradle, Selenium WebDriver, JAVA language.
+Tesztkörnyezet: IntelliJ, Gradle, Selenium WebDriver, JAVA programnyelv, windows, chrome.
 
-Tested features:
-- Registration
-- Login
-- Using Privacy Statement
-- Listing Data
-- Pagination
-- Input of new data
-- Repetitive data entry from external source
-- Existing data modification
-- Deleting data
-- Saving data from the web application
-- Logout
+Tesztelt funkciók:
+- Regisztráció
+- Bejelentkezés
+- Adatvédelmi nyilatkozat használata
+- Adatok listázása
+- Lapozás
+- Új adat bevitele
+-  Új adatok bevitele külső forrásból
+- Létező adat megváltoztatása
+- Adat törlése
+- Adat mentése az alkalmazásból
+- Kijelentkezéd
 
-To run the tests:
-1. Clone this repository to your own computer
-2. Open the cloned gradle project with IntelliJ
-3. Run "gradlew clean test" command
+Tesztek futtatása:
+1. Klónozd ez a repository-t a saját gépedre!
+2. Nyisd meg a klónozott gradle project-et IntelliJ-ben!
+3. Futtasd a "gradlew clean test" parancsot!
 
-(4.For an allure test report: Run "gradlew allureServe" and open the generated index.html in browser)
+(4.allure test report: futtasd a "gradlew allureServe" parancsot)
